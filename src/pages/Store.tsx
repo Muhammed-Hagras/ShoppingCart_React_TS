@@ -11,7 +11,6 @@ export default function Store() {
     };
     fetchProducts();
   }, []);
-  console.log(products);
 
   type productprobs = {
     id: number;
