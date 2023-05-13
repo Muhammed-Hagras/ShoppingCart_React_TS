@@ -7,7 +7,7 @@ type CartItemProps = {
   id: number;
   quantity: number;
 };
-
+//Ts to handle
 export default function ({ id, quantity }: CartItemProps) {
   const { removeFromCart } = useShoppingCart();
   const [products, setproducts] = useState([]);
